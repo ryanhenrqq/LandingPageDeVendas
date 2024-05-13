@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poopins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#9e00fa, #fe5151);
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6rem;
+    justify-content: space-between;
+}
+
+.headerimage {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.headerli {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+#headerli_contact {
+    border: solid 2px white;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: background-color 0.3s linear;
+}
+
+.content {
+    margin: 3rem;
+    margin-top: 1.8rem;
+}
+
+.topcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.topimage {
+    height: 37.4rem;
+    margin-right: 6rem;
+}
+
+.toptext {
+    margin-top: 4rem;
+}
+
+.toptext b {
+    color: white;
+    font-size: 3rem;
+}
+
+.toptext p {
+    margin-top: 2rem;
+    color: rgb(215, 215, 215);
+    font-size: 1.5rem;
+}
+
+button {
+    border: solid 2px white;
+    padding: 1rem;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    transition: background-color 0.3s linear;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+.toptext button {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border: solid 2px white;
+    padding: 1.4rem;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    transition: background-color 0.3s linear;
+}
+
+.toptext button:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+#headerli_contact:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    a {
+        color: white;
+    }
+}
+
+#headerli_contact, button {
+    box-shadow: 1px 1px 5px black;
+}
+
+.toptext p, .toptext b {
+    text-shadow: 1px 1px 5px black;
+}
